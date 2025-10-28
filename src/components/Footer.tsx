@@ -14,11 +14,12 @@ const Footer = () => {
               className="flex items-center gap-2 text-xl font-semibold mb-4"
             >
               <span className="text-cyan-400">&lt;/&gt;</span>
-              <span className="text-white">Portfolio</span>
+              <span className="text-white">Dominik Deak</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Full-Stack Developer crafting exceptional digital experiences with
-              modern web technologies.
+              Full Stack Engineer specializing in React, Next.js, and Node.js,
+              building robust, scalable solutions and leveraging AI-driven
+              workflows to maximize development speed.
             </p>
           </div>
 

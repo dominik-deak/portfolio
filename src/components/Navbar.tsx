@@ -10,7 +10,7 @@ const Navbar = () => {
             className="flex items-center gap-2 text-xl font-semibold"
           >
             <span className="text-cyan-400">&lt;/&gt;</span>
-            <span className="text-white">Portfolio</span>
+            <span className="text-white">Dominik Deak</span>
           </Link>
 
           <div className="flex items-center gap-8">
