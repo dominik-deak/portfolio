@@ -1,9 +1,7 @@
-[
-  {
-    "id": 1,
-    "degree": "Bachelor of Science in Computer Science",
-    "institution": "University of Technology",
-    "period": "2017 - 2021",
-    "description": "Graduated with honors. Focus on software engineering, algorithms, and web development."
-  }
-]
+{
+  "degree": "Bachelor of Science in Computer Science (First Class Honours) with Industrial Experience",
+  "institution": "University of Westminster, London",
+  "institutionUrl": "https://www.westminster.ac.uk/",
+  "period": "2020 - 2024",
+  "description": "Achieved high grades (80%-100%) in all modules & completed a 12-month industrial work placement as a Full-Stack Web Developer"
+}

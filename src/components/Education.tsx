@@ -1,4 +1,5 @@
-import { MdSchool } from "react-icons/md";
+import Link from "next/link";
+import { MdOpenInNew, MdSchool } from "react-icons/md";
 import educationData from "@/data/education.json";
 
 const Education = () => {
@@ -13,23 +14,26 @@ const Education = () => {
         </div>
 
         <div className="space-y-6">
-          {educationData.map((edu) => (
-            <div
-              key={edu.id}
-              className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 hover:border-cyan-400/50 transition-colors"
-            >
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {edu.degree}
-              </h3>
-              <p className="text-cyan-400 mb-4">
-                {edu.institution} <span className="text-slate-500">•</span>{" "}
-                {edu.period}
-              </p>
-              <p className="text-slate-300 leading-relaxed">
-                {edu.description}
-              </p>
-            </div>
-          ))}
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 hover:border-cyan-400/50 transition-colors">
+            <h3 className="text-xl font-semibold text-white mb-2">
+              {educationData.degree}
+            </h3>
+            <p className="text-cyan-400 mb-4">
+              <Link
+                href={educationData.institutionUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {educationData.institution}
+                {/* TODO: fix vertical alignment of the icon */}
+                <MdOpenInNew className="inline-block mx-1" />
+              </Link>
+              <span className="text-slate-500">•</span> {educationData.period}
+            </p>
+            <p className="text-slate-300 leading-relaxed">
+              {educationData.description}
+            </p>
+          </div>
         </div>
       </div>
     </section>
