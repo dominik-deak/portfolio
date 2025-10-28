@@ -1,4 +1,5 @@
 import Image from "next/image";
+import summaryData from "@/data/summary.json";
 
 const Hero = () => {
   return (
@@ -16,13 +17,10 @@ const Hero = () => {
           </div>
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Full-Stack Software Engineer
+              {summaryData.heading}
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-3xl">
-              Passionate software engineer with 3 years of experience building
-              modern web applications. Specialized in creating scalable,
-              user-centric solutions using cutting-edge technologies. Committed
-              to writing clean code and delivering exceptional user experiences.
+              {summaryData.description}
             </p>
           </div>
         </div>
