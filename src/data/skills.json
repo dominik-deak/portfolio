@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vue.js"
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "technologies": ["Node.js", "Express", "Python", "Django", "REST APIs"]
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "technologies": ["PostgreSQL", "MongoDB", "Redis", "Supabase"]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "technologies": ["Docker", "AWS", "CI/CD", "Git", "Linux"]
+    }
+  ]
+}
