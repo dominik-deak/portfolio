@@ -13,7 +13,6 @@
     "lint:check": "biome lint",
     "lint:fix": "biome lint --write",
     "type-check": "tsc --noEmit",
-    "test": "echo 'No tests yet'",
     "audit": "bun audit"
   },
   "dependencies": {
