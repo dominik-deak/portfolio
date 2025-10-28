@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Full-Stack Developer",
+    "company": "Tech Solutions Inc.",
+    "period": "2023 - Present",
+    "description": "Leading development of scalable web applications using React, Node.js, and cloud services. Mentoring junior developers and architecting microservices."
+  },
+  {
+    "id": 2,
+    "title": "Full-Stack Developer",
+    "company": "Digital Innovations Co.",
+    "period": "2022 - 2023",
+    "description": "Built and maintained multiple client-facing applications. Implemented CI/CD pipelines and improved application performance by 40%."
+  },
+  {
+    "id": 3,
+    "title": "Junior Developer",
+    "company": "StartUp Labs",
+    "period": "2021 - 2022",
+    "description": "Developed features for SaaS platform using TypeScript, React, and PostgreSQL. Collaborated with design team to create intuitive user interfaces."
+  }
+]
