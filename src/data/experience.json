@@ -1,23 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Senior Full-Stack Developer",
-    "company": "Tech Solutions Inc.",
-    "period": "2023 - Present",
-    "description": "Leading development of scalable web applications using React, Node.js, and cloud services. Mentoring junior developers and architecting microservices."
+    "title": "Full Stack JavaScript Engineer",
+    "company": "Zoro UK",
+    "companyUrl": "https://www.zoro.co.uk",
+    "period": "Aug 2024 - Present",
+    "description": "I drove end-to-end feature development and system optimization for a major UK industrial e-commerce platform across the entire product lifecycle. I engineered and deployed scalable full-stack applications, utilizing TypeScript, React.js/Next.js and Tailwind CSS for the frontend, and Node.js (hapi.js) Microservices on AWS Lambda for the backend. I championed code quality through Test-Driven Development (TDD), implementing robust Jest and Cypress testing, and executed complex integration testing with enterprise systems like MongoDB, SAP, and Salesforce Lightning, all while managing the full Agile development and deployment cycle."
   },
   {
     "id": 2,
-    "title": "Full-Stack Developer",
-    "company": "Digital Innovations Co.",
-    "period": "2022 - 2023",
-    "description": "Built and maintained multiple client-facing applications. Implemented CI/CD pipelines and improved application performance by 40%."
-  },
-  {
-    "id": 3,
-    "title": "Junior Developer",
-    "company": "StartUp Labs",
-    "period": "2021 - 2022",
-    "description": "Developed features for SaaS platform using TypeScript, React, and PostgreSQL. Collaborated with design team to create intuitive user interfaces."
+    "title": "Full-Stack Web Developer",
+    "company": "London Property - Home of Super Prime",
+    "companyUrl": "https://londonproperty.co.uk/",
+    "period": "May 2022 - Aug 2024",
+    "description": "I spearheaded the modernization of the company's primary dashboard, independently leading the front-end transition from legacy HTML/CSS/JavaScript to a dynamic, responsive interface using React JS and Tailwind CSS. I developed, tested, and deployed new features by extending the existing PHP backend and MySQL database, while also maintaining the smooth operation of key applications. Beyond development, I gained a strong understanding of web application environments by managing WordPress maintenance and collaborating on Linux server setup and system backups. I also actively contributed to business strategy and technical hiring while effectively balancing my part-time development schedule with final-year academic commitments."
   }
 ]
