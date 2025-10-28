@@ -8,7 +8,6 @@ const Footer = () => {
     <footer className="bg-slate-900/95 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Branding Section */}
           <div>
             <Link
               href="/"
@@ -24,7 +23,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Navigation Links */}
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <div className="flex flex-col gap-3">
@@ -49,7 +47,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social Media Links */}
           <div>
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex gap-3">
@@ -85,7 +82,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright & Credits Section */}
         <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-sm">
             {currentYear} Dominik Deak. All rights reserved.
