@@ -4,7 +4,7 @@ import experienceData from "@/data/experience.json";
 
 const Experience = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+    <section className="py-10 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
           <MdWork className="w-8 h-8 text-cyan-400" />

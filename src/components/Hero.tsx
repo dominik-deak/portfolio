@@ -3,7 +3,7 @@ import summaryData from "@/data/summary.json";
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+    <section className="pt-32 pb-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-48 h-48 rounded-full overflow-hidden bg-cyan-400 shrink-0">
