@@ -7,12 +7,14 @@ import Skills from "@/components/Skills";
 
 const Home = () => {
   return (
-    <main>
+    <main className="flex flex-col min-h-screen">
       <Navbar />
-      <Hero />
-      <Experience />
-      <Skills />
-      <Education />
+      <div className="flex-1">
+        <Hero />
+        <Experience />
+        <Skills />
+        <Education />
+      </div>
       <Footer />
     </main>
   );

@@ -6,33 +6,35 @@ import Navbar from "@/components/Navbar";
 
 const ContactPage = () => {
   return (
-    <main>
+    <main className="flex flex-col min-h-screen">
       <Navbar />
 
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Get In Touch
-          </h1>
-          <p className="text-lg text-slate-300 mb-12 max-w-3xl">
-            Have a project in mind or just want to connect? Feel free to reach
-            out using the form below or through my social channels.
-          </p>
+      <div className="flex-1">
+        <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+              Get In Touch
+            </h1>
+            <p className="text-lg text-slate-300 mb-12 max-w-3xl">
+              Have a project in mind or just want to connect? Feel free to reach
+              out using the form below or through my social channels.
+            </p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Contact Form */}
-            <div className="lg:col-span-2">
-              <ContactForm />
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Contact Form */}
+              <div className="lg:col-span-2">
+                <ContactForm />
+              </div>
 
-            {/* Sidebar */}
-            <div className="space-y-8">
-              <Availability />
-              <ConnectWithMe />
+              {/* Sidebar */}
+              <div className="space-y-8">
+                <Availability />
+                <ConnectWithMe />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <Footer />
     </main>
   );
