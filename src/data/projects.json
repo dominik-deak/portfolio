@@ -1,56 +1,87 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "A full-featured e-commerce platform with real-time inventory management, payment processing, and order tracking. Built with Next.js, PostgreSQL, and Stripe.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["Next.js", "PostgreSQL", "Stripe"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
+    "title": "ExerTrack - Al-powered Workout Logger for tracking gym progress",
+    "description": " A mobile application designed to support users in managing their fitness journeys by allowing them to log workout sessions through a user-friendly interface. It analyses workout data and predicts future workout performances, enhancing user engagement through aesthetically pleasing charts and graphs that display their workout history.",
+    "technologies": [
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TypeScript",
+      "Prisma ORM",
+      "TensorFlow",
+      "Keras",
+      "TensorFlow.js"
+    ],
+    "codeUrl": [
+      {
+        "label": "Jupyter Notebook",
+        "url": "https://github.com/dominik-deak/exertrack-prediction-model"
+      },
+      {
+        "label": "Back-end",
+        "url": "https://github.com/dominik-deak/exertrack-server"
+      },
+      {
+        "label": "Front-end",
+        "url": "https://github.com/dominik-deak/exertrack-client"
+      }
+    ]
   },
   {
     "id": 2,
-    "title": "Task Management App",
-    "description": "Collaborative task management system with real-time updates, team workspaces, and project analytics. Features drag-and-drop interface and customizable workflows.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["React", "Node.js", "MongoDB"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
+    "title": "Traffic Sign Image Classification using a Convolutional Neural Network (~94% accuracy)",
+    "description": "A Traffic Sign Image Classification program in a Jupyter Notebook using Tensorflow and Keras, training a Convolutional Neural Network on the \"GTSRB-German Traffic Sign Recognition Benchmark\" dataset with 39,209 images across 3 classes. The model, tested on 12,630 images, achieved ~94% accuracy. I utilised statistical methods for detailed analysis, including accuracy scoring and generating confusion matrices. My approach was informed by extensive research from 5 related studies.",
+    "technologies": [
+      "Python",
+      "Jupyter Notebook",
+      "TensorFlow",
+      "Keras",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Convolutional Neural Networks"
+    ],
+    "codeUrl": [
+      {
+        "label": "Jupyter Notebook",
+        "url": "https://github.com/dominik-deak/applied-ai-cnn"
+      }
+    ]
   },
   {
     "id": 3,
-    "title": "Social Media Dashboard",
-    "description": "Analytics dashboard for social media managers. Aggregates data from multiple platforms, provides insights, and automates posting schedules.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["Vue.js", "Python", "Redis"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
+    "title": "Photography Social Networking Application",
+    "description": "A social networking app for photographers to share, connect, and interact with photos. It allows account management, photo uploads, comments, and voting, encouraging community engagement. Key features include following favourite users, receiving notifications, and accessing a comprehensive analytics dashboard.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "CodeIgniter",
+      "PHP",
+      "REST APIs",
+      "MySQL"
+    ],
+    "codeUrl": [
+      {
+        "label": "Back-end",
+        "url": "https://github.com/dominik-deak/photo-social-server"
+      },
+      {
+        "label": "Front-end",
+        "url": "https://github.com/dominik-deak/photo-social-client"
+      }
+    ]
   },
   {
     "id": 4,
-    "title": "Weather Forecast API",
-    "description": "RESTful API providing accurate weather forecasts with historical data analysis. Includes rate limiting, caching, and comprehensive documentation.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["Node.js", "Express", "PostgreSQL"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
-  },
-  {
-    "id": 5,
-    "title": "Portfolio Generator",
-    "description": "Dynamic portfolio generator that allows users to create beautiful portfolio websites without coding. Offers multiple templates and customization options.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["React", "TypeScript", "Supabase"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
-  },
-  {
-    "id": 6,
-    "title": "Fitness Tracker",
-    "description": "Mobile-responsive fitness tracking app with workout plans, progress visualization, and nutrition tracking. Includes social features and achievements.",
-    "image": "/placeholder-project.jpg",
-    "technologies": ["Next.js", "MongoDB", "Chart.js"],
-    "liveUrl": "https://example.com",
-    "codeUrl": "https://github.com/example"
+    "title": "Portfolio Website (This website)",
+    "description": "A portfolio website built with Next.js, Tailwind CSS, and TypeScript. It showcases my projects, skills, and experience.",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "codeUrl": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/dominik-deak/portfolio"
+      }
+    ]
   }
 ]
