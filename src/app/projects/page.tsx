@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import projectsData from "@/data/projects.json";
 
@@ -100,6 +101,7 @@ const ProjectsPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };
