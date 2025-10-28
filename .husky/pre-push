@@ -1,4 +1,4 @@
-bun run lint
+bun run lint:check
 bun run type-check
 bun run test
 bun run audit
