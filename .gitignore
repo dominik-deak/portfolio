@@ -40,5 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# ai
+.cursor
+prompts
+
 # misc
 todo.md
