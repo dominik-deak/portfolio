@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FiCode } from "react-icons/fi";
+import { MdOpenInNew } from "react-icons/md";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import projectsData from "@/data/projects.json";
@@ -59,40 +61,14 @@ const ProjectsPage = () => {
                         href={project.liveUrl}
                         className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-cyan-400 text-slate-900 font-medium rounded hover:bg-cyan-300 transition-colors"
                       >
-                        <svg
-                          className="w-4 h-4"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                          />
-                        </svg>
+                        <MdOpenInNew className="w-4 h-4" />
                         View Live
                       </Link>
                       <Link
                         href={project.codeUrl}
                         className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-slate-700 text-cyan-400 font-medium rounded border border-cyan-400/50 hover:bg-slate-600 transition-colors"
                       >
-                        <svg
-                          className="w-4 h-4"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                          />
-                        </svg>
+                        <FiCode className="w-4 h-4" />
                         View Code
                       </Link>
                     </div>
