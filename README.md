@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A personal portfolio website showcasing my:
+- Professional background and work experience
+- Technical skills and expertise
+- Educational qualifications
+- Project portfolio with descriptions
+- Contact information and availability
 
-First, run the development server:
+## 🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Core Technologies
+- **Bun** - Fast runtime and package manager
+- **Next.js 16** - React framework with App Router
+- **React 19** - UI library
+- **TypeScript** - Type-safe development
+
+### Styling & UI
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **React Icons** - Icon library
+
+### Backend & Email
+- **Next.js API Routes** - Serverless backend
+- **React Email** - Component-based email templates
+- **Resend** - Email service for contact form
+
+### Development & Quality
+- **Biome** - Fast linter and code formatter
+- **Husky** - Git hooks for pre-push checks
+- **React Compiler** - Performance optimization for React components
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── api/send/          # Email API endpoint
+│   ├── contact/           # Contact page
+│   ├── projects/          # Projects page
+│   ├── page.tsx           # Home page
+│   └── layout.tsx         # Root layout
+├── components/            # React components
+└── data/                  # JSON data files (experience, skills, projects, etc.)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Home** (`/`) - Hero section with experience, skills, and education
+- **Projects** (`/projects`) - Portfolio of projects
+- **Contact** (`/contact`) - Contact form and availability
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Personal Portfolio • Built with Next.js & Tailwind CSS**
