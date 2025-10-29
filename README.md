@@ -1,5 +1,7 @@
 # Portfolio Website
 
+https://dominik-deak.netlify.app/
+
 A personal portfolio website showcasing my:
 - Professional background and work experience
 - Technical skills and expertise
