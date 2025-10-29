@@ -75,8 +75,15 @@
   {
     "id": 4,
     "title": "Portfolio Website (This website)",
-    "description": "A portfolio website built with Next.js, Tailwind CSS, and TypeScript. It showcases my projects, skills, and experience.",
-    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "description": "A portfolio website, showcasing my professional background. The main page provides an overview of my professional experience, my skill set, and my educational background. A separate page displays my personal projects, and another page has a contact form for inquiries and connections. The site serves as a dynamic CV/resume, offering insight into my capabilities and accomplishments as a software engineer.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Email",
+      "Resend"
+    ],
     "codeUrl": [
       {
         "label": "GitHub Repository",
