@@ -1,31 +1,24 @@
 [
   {
     "id": 1,
-    "title": "ExerTrack - Al-powered Workout Logger for tracking gym progress",
-    "description": " A mobile application designed to support users in managing their fitness journeys by allowing them to log workout sessions through a user-friendly interface. It analyses workout data and predicts future workout performances, enhancing user engagement through aesthetically pleasing charts and graphs that display their workout history.",
+    "title": "Photography Social Networking Application",
+    "description": "A social networking app for photographers to share, connect, and interact with photos. It allows account management, photo uploads, comments, and voting, encouraging community engagement. Key features include following favourite users, receiving notifications, and accessing a comprehensive analytics dashboard.",
     "technologies": [
-      "React Native",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
+      "React",
       "TypeScript",
-      "Prisma ORM",
-      "TensorFlow",
-      "Keras",
-      "TensorFlow.js"
+      "CodeIgniter",
+      "PHP",
+      "REST APIs",
+      "MySQL"
     ],
     "codeUrl": [
       {
-        "label": "Jupyter Notebook",
-        "url": "https://github.com/dominik-deak/exertrack-prediction-model"
-      },
-      {
         "label": "Back-end",
-        "url": "https://github.com/dominik-deak/exertrack-server"
+        "url": "https://github.com/dominik-deak/photo-social-server"
       },
       {
         "label": "Front-end",
-        "url": "https://github.com/dominik-deak/exertrack-client"
+        "url": "https://github.com/dominik-deak/photo-social-client"
       }
     ]
   },
@@ -51,24 +44,31 @@
   },
   {
     "id": 3,
-    "title": "Photography Social Networking Application",
-    "description": "A social networking app for photographers to share, connect, and interact with photos. It allows account management, photo uploads, comments, and voting, encouraging community engagement. Key features include following favourite users, receiving notifications, and accessing a comprehensive analytics dashboard.",
+    "title": "ExerTrack - Al-powered Workout Logger for tracking gym progress",
+    "description": " A mobile application designed to support users in managing their fitness journeys by allowing them to log workout sessions through a user-friendly interface. It analyses workout data and predicts future workout performances, enhancing user engagement through aesthetically pleasing charts and graphs that display their workout history.",
     "technologies": [
-      "React",
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
       "TypeScript",
-      "CodeIgniter",
-      "PHP",
-      "REST APIs",
-      "MySQL"
+      "Prisma ORM",
+      "TensorFlow",
+      "Keras",
+      "TensorFlow.js"
     ],
     "codeUrl": [
       {
+        "label": "Jupyter Notebook",
+        "url": "https://github.com/dominik-deak/exertrack-prediction-model"
+      },
+      {
         "label": "Back-end",
-        "url": "https://github.com/dominik-deak/photo-social-server"
+        "url": "https://github.com/dominik-deak/exertrack-server"
       },
       {
         "label": "Front-end",
-        "url": "https://github.com/dominik-deak/photo-social-client"
+        "url": "https://github.com/dominik-deak/exertrack-client"
       }
     ]
   },
