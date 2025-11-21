@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Full Stack JavaScript Engineer",
-    "company": "Zoro UK (as part of Grainger)",
+    "company": "Zoro UK (as part of W. W. Grainger)",
     "period": "Aug 2024 - Present",
     "description": "I drove end-to-end feature development and system optimization for a major UK industrial e-commerce platform across the entire product lifecycle. I engineered and deployed scalable full-stack applications, utilizing TypeScript, React.js/Next.js and Tailwind CSS for the frontend, and Node.js (hapi.js) Microservices on AWS Lambda for the backend. I championed code quality through Test-Driven Development (TDD), implementing robust Jest and Cypress testing, and executed complex integration testing with enterprise systems like MongoDB, SAP, and Salesforce Lightning, all while managing the full Agile development and deployment cycle."
   },
