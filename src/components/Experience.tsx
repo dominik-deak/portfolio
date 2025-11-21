@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { MdOpenInNew, MdWork } from "react-icons/md";
+import { MdWork } from "react-icons/md";
 import experienceData from "@/data/experience.json";
 
 const Experience = () => {
@@ -28,16 +27,8 @@ const Experience = () => {
                     {exp.title}
                   </h3>
                   <p className="text-cyan-400 mb-4">
-                    <Link
-                      href={exp.companyUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {exp.company}
-                      {/* TODO: fix vertical alignment of the icon */}
-                      <MdOpenInNew className="inline-block ml-2" />
-                    </Link>{" "}
-                    <span className="text-slate-500">•</span> {exp.period}
+                    {exp.company} <span className="text-slate-500">•</span>{" "}
+                    {exp.period}
                   </p>
                   <p className="text-slate-300 leading-relaxed">
                     {exp.description}
