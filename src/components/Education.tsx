@@ -18,7 +18,7 @@ const Education = () => {
               {educationData.degree}
             </h3>
             <p className="text-cyan-400 mb-4">
-              {educationData.institution}
+              {educationData.institution}{" "}
               <span className="text-slate-500">•</span> {educationData.period}
             </p>
             <p className="text-slate-300 leading-relaxed">
