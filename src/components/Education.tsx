@@ -1,4 +1,5 @@
-import { MdSchool } from "react-icons/md";
+import Link from "next/link";
+import { MdOpenInNew, MdSchool } from "react-icons/md";
 import educationData from "@/data/education.json";
 
 const Education = () => {
@@ -18,7 +19,15 @@ const Education = () => {
               {educationData.degree}
             </h3>
             <p className="text-cyan-400 mb-4">
-              {educationData.institution}{" "}
+              <Link
+                href={educationData.institutionUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {educationData.institution}
+                {/* TODO: fix vertical alignment of the icon */}
+                <MdOpenInNew className="inline-block mx-1" />
+              </Link>
               <span className="text-slate-500">•</span> {educationData.period}
             </p>
             <p className="text-slate-300 leading-relaxed">
