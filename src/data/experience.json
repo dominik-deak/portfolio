@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Full-Stack Web Developer",
     "company": "London Property - Home of Super Prime",
+    "companyUrl": "https://londonproperty.co.uk",
     "period": "May 2022 - Aug 2024",
     "description": "I spearheaded the modernization of the company's primary dashboard, independently leading the front-end transition from legacy HTML/CSS/JavaScript to a dynamic, responsive interface using React JS and Tailwind CSS. I developed, tested, and deployed new features by extending the existing PHP backend and MySQL database, while also maintaining the smooth operation of key applications. Beyond development, I gained a strong understanding of web application environments by managing WordPress maintenance and collaborating on Linux server setup and system backups. I also actively contributed to business strategy and technical hiring while effectively balancing my part-time development schedule with final-year academic commitments."
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "title": "Full Stack JavaScript Engineer",
     "company": "Zoro UK (as part of W. W. Grainger)",
+    "companyUrl": "https://www.grainger.com",
     "period": "Aug 2024 - Dec 2025",
     "description": "I drove end-to-end feature development and system optimization for a major UK industrial e-commerce platform across the entire product lifecycle. I engineered and deployed scalable full-stack applications, utilizing TypeScript, React.js/Next.js and Tailwind CSS for the frontend, and Node.js (hapi.js) Microservices on AWS Lambda for the backend. I championed code quality through Test-Driven Development (TDD), implementing robust Jest and Cypress testing, and executed complex integration testing with enterprise systems like MongoDB, SAP, and Salesforce Lightning, all while managing the full Agile development and deployment cycle."
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "title": "Full-Stack Engineer",
     "company": "Novel",
+    "companyUrl": "https://novelapp.co.uk",
     "period": "Dec 2025 - Present",
     "description": "Recently joined as a Full Stack Engineer, working with JavaScript, TypeScript, React, Node.js, and DynamoDB - all on AWS."
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "title": "Partner",
     "company": "Optimal Compliance",
+    "companyUrl": "https://optimalcompliance.com",
     "period": "Dec 2025 - Present",
     "description": "In a partnership with Optimal Compliance, a UK-based consultancy helping small to medium businesses with complex tax, structure, and finance issues, working closely with Novel."
   }
