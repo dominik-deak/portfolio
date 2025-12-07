@@ -17,7 +17,7 @@ const Experience = () => {
           <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-slate-700 hidden sm:block" />
 
           <div className="space-y-12">
-            {experienceData.map((exp) => (
+            {experienceData.reverse().map((exp) => (
               <div key={exp.id} className="relative pl-0 sm:pl-8">
                 {/* Timeline dot */}
                 <div className="absolute left-0 top-0 w-2 h-2 bg-cyan-400 rounded-full -translate-x-[3px] hidden sm:block" />
